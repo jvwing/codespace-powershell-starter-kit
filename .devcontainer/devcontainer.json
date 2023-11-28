@@ -1,5 +1,5 @@
 {
-    "image": "mcr.microsoft.com/powershell:7.3-ubuntu-jammy",
+    "image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
     "hostRequirements": {
       "cpus": 4
     },
@@ -11,10 +11,11 @@
         "openFiles": []
       },
       "vscode": {
-        "extensions": [
-          "ms-vscode.powershell"
-        ]
+        "extensions": []
       }
+    },
+    "features": {
+      "ghcr.io/devcontainers/features/powershell:1": {}
     }
   }
   
